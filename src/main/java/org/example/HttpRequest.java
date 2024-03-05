@@ -7,7 +7,6 @@ public class HttpRequest {
     private final RequestLine requestLine;
 
     public HttpRequest(String line) throws IOException {
-        // NullPointerException
         this.requestLine = new RequestLine(line);
     }
 
@@ -22,7 +21,5 @@ public class HttpRequest {
     public QueryStrings getQueryString() {
         return requestLine.getQueryStrings();
     }
-
-
 
 }

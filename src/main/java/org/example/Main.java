@@ -13,7 +13,7 @@ import java.io.IOException;
 
 // GET /calculate?operand1=10&operator=*&operand2=5 HTTP/1.1
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 
         // HttpRequest 모양 확인하기
 //        new HttpRequestMessage(8080).start();
